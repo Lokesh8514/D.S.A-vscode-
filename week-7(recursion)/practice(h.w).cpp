@@ -71,12 +71,12 @@ using namespace std;
 //         maxprofit=max(maxprofit,arr[i]-minprice);
 //         buysellstocks(arr,minprice,maxprofit,i+1);
 // }
-int main(){
-    string str="abcd";
-    char ch='d';
-    //int i=0;
-    //int ans=-1;
-    cout<<lastocc(str,ch,str.length()-1);
+// int main(){
+//     string str="abcd";
+//     char ch='d';
+//     //int i=0;
+//     //int ans=-1;
+//     cout<<lastocc(str,ch,str.length()-1);
     //cout<<ans;
     // string str;
     // cin>>str;
