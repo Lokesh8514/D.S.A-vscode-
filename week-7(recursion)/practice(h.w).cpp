@@ -15,12 +15,12 @@ using namespace std;
 //     }
 //     lastocc(str,ch,i+1,ans);
 // }
-void reversestr(string &str,int i,int j){
-    if(i>j) return;
-    swap(str[i],str[j]);
-    reversestr(str,i+1,j-1);
+// void reversestr(string &str,int i,int j){
+//     if(i>j) return;
+//     swap(str[i],str[j]);
+//     reversestr(str,i+1,j-1);
 
-}
+// }
 // bool pal(string &str,int i,int j){
 //     if(i>j) return true;
 //     if(str[i]!=str[j])
