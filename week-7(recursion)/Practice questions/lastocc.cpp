@@ -16,7 +16,7 @@ void lastocc(string &str,char ch,int i,int &ans){
     lastocc(str,ch,i+1,ans);
 }
 
-int main {
+int main(){
     string str="abcd";
     char ch='d';
     //int i=0;

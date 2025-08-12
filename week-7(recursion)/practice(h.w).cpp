@@ -1,13 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
-// int lastocc(string &str,char ch,int i){
-//     if(i<0) return -1;
-//     if(str[i]==ch){
-//         return i;
-//     }
-//     if(i<0) return -1;
-//     return lastocc(str,ch,i-1);
-// }
+int lastocc(string &str,char ch,int i){
+    if(i<0) return -1;
+    if(str[i]==ch){
+        return i;
+    }
+    if(i<0) return -1;
+    return lastocc(str,ch,i-1);
+}
 // void lastocc(string &str,char ch,int i,int &ans){
 //     if(i>=str.size()) return;
 //     if(str[i]==ch){

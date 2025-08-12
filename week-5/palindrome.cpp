@@ -19,7 +19,10 @@ int main(){
     char ch[100];
     //cin.getline(ch,50);
     cin>>ch;
-    cout<<palindrome(ch);
+  if(palindrome(ch))
+  cout<<"palindrome";
+  else
+  cout<<"not palindrome";
   
         return 0;
 }
