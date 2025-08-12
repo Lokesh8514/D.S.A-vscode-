@@ -8,6 +8,9 @@ bool pal(string &str, int i, int j) {
 }
 
 int main() {
-    string str = "aba";
-    cout << pal(str, 0, str.length() - 1);
+    string str = "abab";
+    if(pal(str, 0, str.length() - 1))
+    cout<<"palindrome";
+    else cout<<"not palindrome";
+    return 0;
 }
