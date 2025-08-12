@@ -1,11 +1,4 @@
-// #include <iostream>
-// #include <string>
-// #include <vector>
-// #include <algorithm>
-// #include <random>
-// #include <ctime>
 #include<bits/stdc++.h>
-
 using namespace std;
 
 // Function to calculate cows and bulls
