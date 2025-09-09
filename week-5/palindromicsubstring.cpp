@@ -1,5 +1,4 @@
-#include <iostream>
-#include<string>
+#include<bits/stdc++.h>
 using namespace std;
 bool validPalindrome(string ans) {
     int i=0;
@@ -15,19 +14,25 @@ bool validPalindrome(string ans) {
 return true;
 }
 int main() {
-    string s="BababaB";
+    string s="bababab";
     int count=0;
+    int ans =0;
     for(int i=0;i<s.length();i++){
         for(int j=i;j<s.length();j++){
-            string ans=s.substr(i,j-i+1);
+            string str=(s.substr(i,j-i+1));
 
             
-            if(validPalindrome( ans))
-            count++;
+            if(validPalindrome( str)){
+                count++;
+               if(ans<str.length())
+               ans=str.length();
+                //cout<<str<<endl;
+            }
+            
 
             //cout<<s.substr(i,j-i+1)<<endl;
         }
     }
-    cout<<count;
+    cout<<count<<" "<<ans;
     return 0;
 }
