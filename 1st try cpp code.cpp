@@ -1,8 +1,4 @@
-
-#include <iostream>
-#include <climits>
-//#include<math.h>
-#include <vector>
+#include<bits/stdc++.h>
 using namespace std;
 //linear search//
 // int a=-1;
